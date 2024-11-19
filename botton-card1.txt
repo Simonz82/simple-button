@@ -1,0 +1,31 @@
+type: custom:button-card
+entity: light.scala #mettere la propria entità
+name: 
+label: Scala
+show_name: false
+show_label: true
+layout: icon_label
+size: 100%
+show_state: false
+styles:
+  card:
+    - background: rgb(222,99,47,100%) #colore bottone
+    - border: 2px solid rgb(140,63,30, 100%) #colore bordo bottone
+    - height: 60px
+    - width: 190px
+    - font-size: 14px
+    - font-weight: bold
+  label:
+    - justify-self: start
+state:
+  - value: "on"
+    icon: mdi:lightbulb-on #icona per l'entità in on
+    styles:
+      icon:
+        - color: yellow #colore per l'entità in on
+  - value: "off"
+    styles:
+      icon:
+        - color: white @#colore per l'entità in off
+tap_action:
+  action: toggle

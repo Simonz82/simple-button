@@ -1,0 +1,36 @@
+type: custom:button-card
+entity: sensor.lavatrice_power #cambiare con entità che utilizzate
+name: 
+label: Lavatrice
+icon: mdi:washing-machine
+show_name: false
+show_label: true
+layout: icon_label
+size: 100%
+show_state: true
+styles:
+  card:
+    - background: rgb(222,99,47,100%) #colore bottone
+    - border: 2px solid rgb(140,63,30, 100%) #colore bordo bottone
+    - height: 60px
+    - width: 190px
+    - font-size: 14px
+    - font-weight: bold
+  label:
+    - justify-self: start
+  state:
+    - padding-left: 56px
+    - font-size: 8px
+state:
+  - value: "on"
+    font: null
+    styles:
+      icon:
+        - color: yellow #colore icona in stato on
+  - value: "off"
+    font: 10px
+    styles:
+      icon:
+        - color: white #colore icona in stato off
+tap_action:
+  action: toggle
