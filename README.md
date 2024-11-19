@@ -1,11 +1,11 @@
 <h2><span style="text-decoration: underline;"><strong>🎛️ Simple Botton for home assistant</strong></span></h2>
 
-è un bottone semplice che si può colorare, modificare dimensioni e icone al suo interno in base accensione e spegnimento luci (per esempio):
+è un semplice bottone che si può personalizzare: colore sfondo, bordo, modificare dimensioni, icone in base accensione e spegnimento luci (per esempio) e molto altro.
 <p><img src="example/example1.jpg" alt="" /></p>
 <p><img src="example/example2.jpg" alt="" /></p>
 <p><img src="example/example3.jpg" alt="" /></p>
 
-<p>Volevo condividere una scheda che ho creato con l'aiuto delle varie community per visualizzare le informazioni di una persona tramite l'utilizzo dell'app HA companion.</p>
+<p>Volevo condividere questi pulsanti che ho creato con l'aiuto delle varie community.</p>
 
 <p dir="auto">Istruzioni:</p>
 
